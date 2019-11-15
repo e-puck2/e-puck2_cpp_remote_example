@@ -2,9 +2,9 @@ CC = g++
 RM = rm
 SRC = main.cpp
 TARGET = main
-INCLUDES = -I. -I../epuck2_remote_bluetooth_library
-LIBS = -L. -L../epuck2_remote_bluetooth_library
-CFLAGS = $(INCLUDES) $(LIBS)
+INCLUDES = -I. -I../e-puck2_cpp_remote_library
+LIBS = -L. -L../e-puck2_cpp_remote_library
+CFLAGS = $(INCLUDES) $(LIBS) -std=c++11
 LFLAGS = -lepuck2bt -lpthread
 DEPS =
 OBJS =

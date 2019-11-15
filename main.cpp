@@ -9,7 +9,7 @@ using namespace std;
 
 int main()
 {
-    Epuck2 epuck2 = Epuck2();
+    Epuck2 epuck2;
     char port[20] = {0};
     sprintf(port, "/dev/rfcomm0");
 
